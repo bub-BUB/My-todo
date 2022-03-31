@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 0%;
+    margin: 0%;
+}
+
+@keyframes appear {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.main{
+    height: 50px;
+    background-color: rgb(9, 90, 167);
+    position: relative;
+}
+#title{
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.but{
+    position: absolute;
+    right: 100px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+
+}
+
+.mid{
+    height: 850px;
+    width: 100%;
+    background-color: rgb(178, 178, 241);
+    position: relative;
+    display: flex;
+    background-image: url(./bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* .mid img{
+
+    height: 852px;
+    width: 1920px;
+    object-fit: cover;
+} */
+
+.rights{
+    position: relative;
+    display: flex;
+    bottom: 0px;
+    background-color: rgb(9, 90, 167);
+    height: 61px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rights i{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.popy{
+    animation-name: appear;
+    animation-duration: 0.5s ;
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 250px;
+    z-index: 2;
+    border-radius: 10px;
+    /* opacity: 0.7; */
+    left: 44%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./bgg.webp);
+    background-position: center;
+
+}
+.popy p{
+    position: absolute;
+    text-align: center;
+    top: -15px;
+    left: 0px;
+    width: 250px;
+    font-size: 20px;
+    height: 1px;
+}
+.head{
+    position: absolute;
+    top: 35px;
+    left: 14px;
+
+}
+.pop{
+    position: absolute;
+    top: 0px;
+    height: 850px;
+    width: 100%;
+    display: flex;
+    z-index: 3;
+}
+#inpp{
+    position: absolute;
+    height: 220px;
+    left: 15px;
+    opacity: 0.5;
+    top: 65px;
+    border-radius: 10px;
+    width: 220px;
+    padding: 10px;
+}
+#inp{
+    padding-left:10px;
+    border-radius: 8px;
+    opacity: 0.5;
+    width: 160px;
+}
+.x{
+    position: absolute;
+    border-radius: 7px;
+    background-color: rgb(230, 42, 42);
+    right: 15px;
+    color: aliceblue;
+    top: 7px;
+
+}
+
+.lists{
+    position: absolute;
+    z-index: 1;
+    flex-wrap: wrap;
+    height: 850px;
+    width: 100%;
+    padding: 20px;
+    top: 0px;
+    font-size: 60px;
+    display: flex;
+    /* background-color: aqua; */
+
+}
+.box{
+    z-index: 4;
+    animation-name: appear;
+    animation-duration: 0.5s ;
+    position: relative;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./bgg.webp);
+    background-position: center;
+}
+.topic{
+    position: absolute;
+    width: 140px;
+    /* background-color: rgb(88, 170, 238); */
+    top: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    resize: none;
+    opacity: 0.5;
+}
+.descrip{
+    position: absolute;
+    top: 65px;
+    font-family:Arial, Helvetica, sans-serif;
+    resize: none;
+    opacity: 0.5;
+    outline: none;
+    border: 0px;
+
+}
+.icon1{
+    position: absolute;
+    right: 5px;
+    height: 15px;
+    border-radius: 10px;
+    top: 15px;
+    font-size: 15px;
+    text-align: center;
+    z-index: 9;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15px;
+    background-color: red;
+}
+.icon2{
+    position: absolute;
+    right: 25px;
+    z-index: 9;
+    font-size: 17px;
+    height: 15px;
+    top: 15px;
+    text-align: center;
+    border-radius: 3px;
+    width: 15px;
+    background-color: rgb(0, 204, 255);
+}
+
